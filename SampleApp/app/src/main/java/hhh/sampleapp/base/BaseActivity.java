@@ -6,10 +6,10 @@ import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.view.KeyEvent;
 
-import hhh.myshop.MainActivity;
-import hhh.myshop.Manager.ActivityManager;
-import hhh.myshop.R;
-import hhh.myshop.utils.T;
+import hhh.sampleapp.MainActivity;
+import hhh.sampleapp.Manager.ActivityManager;
+import hhh.sampleapp.R;
+import hhh.sampleapp.utils.T;
 
 
 /**
@@ -33,7 +33,7 @@ public class BaseActivity extends AppCompatActivity {
                     ActivityManager.getInstance().closeAll();
                 }else{
                     isExit=true;
-                    T.show(this,R.string.exit);
+                    T.show(this, R.string.exit);
                     handler.postDelayed(r,2000);
                 }
                 return true;
