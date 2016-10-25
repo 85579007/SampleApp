@@ -17,6 +17,7 @@ public class MainActivity extends BaseActivity {
         setContentView(R.layout.activity_main);
 
         init();
+        int ii=0;
     }
 
     private void init() {
